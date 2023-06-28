@@ -1,0 +1,317 @@
+.checkout{
+    width: 100%;
+}
+
+.checkout-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 0;
+}
+
+.checkout-wrapper-image{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    text-align: center;
+}
+
+.checkout-wrapper-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.checkout-wrapper-image-title{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+.checkout-information{
+    margin: 100px 0 130px;
+    width: 1100px;
+}
+
+.checkout-information-form{
+    width: 100%;
+}
+
+.checkout-information-form-top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.checkout-information-form-item{
+    width: 50%;
+}
+
+.checkout-information-form-item h1{
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 29px;
+    line-height: 1.55em;
+    letter-spacing: .2em;
+    margin: 0 0 40px;
+    font-size: 20px;
+    line-height: 1.55em;
+}
+
+.checkout-information-form-item-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 40px 0;
+}
+
+.checkout-information-form-item-content-span{
+    margin: 3px 0;
+    color: #999898;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+.checkout-information-form-item-content-input-label{
+    font-size: 15px;
+    color: #8a8a8a;
+    line-height: 1.5em;
+    margin-bottom: 4px;
+}
+
+.checkout-information-form-item-content-input{
+    display: block;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px 20px;
+    font-family: "EB Garamond",serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5em;
+    color: #8a8a8a;
+    cursor: pointer;
+}
+
+.checkout-information-form-item-content-input:focus{
+    border: 1px solid #1d1d1d;
+    transition: all 0.5s;
+}
+
+.checkout-information-form-item-content textarea{
+    display: block;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px 20px;
+    font-family: "EB Garamond",serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5em;
+    color: #8a8a8a;
+    cursor: pointer;
+}
+
+.checkout-information-form-bottom{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.checkout-information-form-bottom-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #635041;
+}
+
+.checkout-information-form-bottom-table{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.checkout-information-form-bottom-table tr{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.checkout-information-form-bottom-table th{
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-size: 15px;
+    line-height: 1.6em;
+    letter-spacing: .2em;
+}
+
+.checkout-information-form-bottom-table td{
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    font-size: 15px;
+    line-height: 1.6em;
+    font-style: italic;
+}
+
+.checkout-information-form-bottom-table-left{
+    width:30%;
+}
+
+.checkout-information-form-bottom-table-mid{
+    width:30%;
+}
+
+.checkout-information-form-bottom-table-right{
+    width:30%;
+}
+
+.checkout-information-form-bottom-options{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.checkout-information-form-bottom-options span{
+    display:block;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-weight: normal;
+    color: #8a8a8a;
+    margin: 10px 20px;
+}
+
+.checkout-information-form-bottom-options-item{
+    display:flex;
+    align-items: start;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.checkout-information-form-bottom-options-item input{
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.checkout-information-form-bottom-options-item label{
+    line-height: 1.8em;
+    font-size: 16px;
+    font-weight: normal;
+    color: #8a8a8a;
+}
+
+.checkout-information-btn{
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.checkout-information-btn button{
+    background-color: transparent;
+    border: 1px solid #8b8b8b;
+    font-family: "EB Garamond",serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1d1d1d;
+    height: 54px;
+    padding: 0 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.checkout-information-btn button:hover{
+    border: 1px solid #1d1d1d;
+
+}
+
+.checkout-information-btn span{
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #8b8b8b;
+    font-family: "EB Garamond",serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1d1d1d;
+    padding: 15px 52px;
+    margin-top: 10px;
+}
+
+.checkout-information-btn span:hover{
+    cursor: pointer;
+    color: #8b8b8b;
+    border: 1px solid #1d1d1d;
+    transition: all 1s ease;
+}
+
+
+.checkout-information-form-bottom-information{
+    width: 100%;
+
+}
+
+.checkout-information-form-bottom-information-title{
+    width: 100%;
+    color: #1d1d1d;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.checkout-information-form-bottom-information-title i{
+    margin-right: 5px;
+}
+
+.checkout-information-form-bottom-information-personal{
+    display:flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color:#1d1d1d;
+    font-size: 17px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.checkout-information-form-bottom-information-personal span{
+    margin-right:10px;
+}
+
+.checkout-information-form-bottom-information-address{
+    display:flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color:#1d1d1d;
+    font-size: 17px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.checkout-information-form-bottom-information-address span{
+    margin-right:10px;
+}
+
+.link-page-checkout {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    font-size: 15px;
+    line-height: 1.6em;
+    font-style: italic;
+}

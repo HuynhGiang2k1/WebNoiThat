@@ -1,0 +1,139 @@
+li,ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sale{
+    width: 100%;
+}
+
+.sale-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 130px;
+    width: 100%;
+}
+
+.sale-top{
+    background-color: #f5f3f3;
+    text-align: center;
+    margin-bottom:100px;
+    padding: 16px;
+    width: 100%;
+}
+
+.sale-top span{
+    font-family: "EB Garamond",serif;
+    color: #8b8b8b;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.sale-top span a{
+    color: #8b8b8b;
+}
+
+.sale-top span a:hover{
+    color: #646363;
+    text-decoration-line: underline;
+}
+
+.sale-wrapper-content{
+    width:100%;
+
+}
+
+.sale-wrapper-content-product{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.sale-wrapper-content-product-content{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale-wrapper-content-product-item{
+    display: block;
+    width: 250px;
+    text-align: center;
+    margin-right: 0;
+
+}
+
+.sale-wrapper-content-product-item-icon{
+    position: relative;
+    width: 250px;
+}
+
+.sale-wrapper-content-product-item-icon:hover .sale-wrapper-content-product-item-img{
+    opacity: 0.3;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.sale-wrapper-content-product-item-icon:hover .sale-wrapper-content-product-item-icon-icon{
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.sale-wrapper-content-product-item-img{
+    object-fit: cover;
+    width: 250px;
+
+}
+
+.sale-wrapper-content-product-item-icon-icon{
+    position: absolute;
+    bottom: 15px;
+    right: 46%;
+    font-size: 15px;
+    cursor: pointer;
+    color: #ccc;
+    transition: all 0.5s ease;
+    opacity: 0.1;
+}
+
+.sale-wrapper-content-product-item-icon-icon:hover{
+    color: #302e2e;
+}
+
+.sale-wrapper-content-product-item-text{
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #8b8b8b;
+    font-size: 14px;
+    letter-spacing: .12em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.sale-wrapper-content-product-item-category{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1em;
+    color: #8b8b8b;
+    z-index: 3;
+    width: auto;
+    line-height: 20px;
+}
+
+.sale-wrapper-content-product-item-price{
+    display: block;
+    font-family: "EB Garamond",serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1d1d1d;
+    padding: 10px 0 16px 0;
+}

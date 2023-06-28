@@ -1,0 +1,127 @@
+.feedback{
+    width: 1100px;
+}
+
+.feedback-top{
+    width: 100%
+}
+
+.feedback-top-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feedback-top-title h2{
+    font-family: "Josefin Sans",sans-serif;
+    font-size:22px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 1.55rem;
+}
+
+.feedback-top-information{
+    display: block;
+    margin: 10px 0;
+}
+
+.feedback-top-information li{
+    font-family: "Josefin Sans",sans-serif;
+    display:block;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-style: italic;
+    color: #1d1d1d;
+    font-weight:600;
+    line-height: 1.7em;
+}
+
+.feedback-top-descripton{
+    font-family: "Consolas", "Monaco", monospace;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+.feedback-mid{
+    overflow: hidden;
+}
+
+.feedback-mid,.feedback-mid-wrapper,.feedback-mid-wrapper-left,.feedback-mid-wrapper-right{
+    width: 100%;
+    text-align: center;
+}
+
+.feedback-mid-wrapper{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-mid-wrapper-left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-mid-wrapper-left img{
+    width: 556px;
+}
+
+.feedback-mid-wrapper-right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.feedback-mid-wrapper-right-item{
+    display:block;
+    padding: 5px 0;
+}
+
+.feedback-mid-wrapper-right-item img{
+    width: 130px;
+    height: 130px;
+}
+
+.feedback-bottom{
+    width: 100%;
+
+}
+
+.feedback-bottom-title{
+    width: 100%;
+    text-align: center;
+}
+
+.feedback-bottom-title h2{
+    color: #5238028C;
+    font-family: "Roboto", Roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    font-size: 20px;
+}
+
+.feedback-bottom-slider{
+    width: 100%;
+}
+
+.feedback-bottom-slider-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.feedback-bottom-slider-wrapper-item{
+    width: 100%;
+}
+
+.feedback-bottom-slider-wrapper-item img{
+    width:180px;
+    height: 180px;
+}

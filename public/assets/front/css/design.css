@@ -1,0 +1,56 @@
+
+.design{
+    width: 1100px;
+}
+
+.design-title{
+    width: 100%;
+    text-align:left;
+}
+
+.design-title h2{
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6ec1e4;
+    font-size: 20px;
+    line-height: 1.55em;
+    letter-spacing: .18em;
+    margin-bottom: 25px;
+}
+
+.design-description{
+    color: #7a7a7a;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+.design-content{
+    width: 100%;
+    margin-top: 30px !important;
+}
+
+.design-content-wrapper{
+    width: 100%;
+}
+
+.design-content-wrapper-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design-content-wrapper-content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design-content-wrapper-content-wrapper-item{
+    padding: 5px;
+}
+
+.design-content-wrapper-content-wrapper-item img{
+    width: 150px;
+    height: 150px;
+}
